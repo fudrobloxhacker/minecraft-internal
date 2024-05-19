@@ -7,6 +7,5 @@ class C_Entity
 public:
 	static jclass getClass();
 	static jobject getInstance();
-
-
+	static jmethodID getAbilities();
 };

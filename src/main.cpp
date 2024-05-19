@@ -1,8 +1,8 @@
 #include <thread>
 #include <chrono>
 #include <Windows.h>
-
-#include "Hook.h"
+#include "../../modules/Cheat.h"
+#include "../../hook/hook.h"
 
 void __stdcall MainThread(HINSTANCE instance)
 {

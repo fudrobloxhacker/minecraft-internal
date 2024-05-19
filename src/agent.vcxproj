@@ -154,15 +154,18 @@
   <ItemGroup>
     <ClCompile Include="dependencies\include\ImGui\imgui_impl_opengl3.cpp" />
     <ClCompile Include="dependencies\include\ImGui\imgui_impl_win32.cpp" />
-    <ClCompile Include="gui.cpp" />
-    <ClCompile Include="hook.cpp" />
+    <ClCompile Include="modules\Cheat.cpp" />
+    <ClCompile Include="gui\gui.cpp" />
+    <ClCompile Include="hook\hook.cpp" />
     <ClCompile Include="javaclass.h" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="modules\AutoSprint\AutoSprint.cpp" />
     <ClCompile Include="net\minecraft\client\MinecraftClient.cpp" />
     <ClCompile Include="net\minecraft\entity\Entity.cpp" />
     <ClCompile Include="net\minecraft\world\World.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="modules\Cheat.h" />
     <ClInclude Include="dependencies\include\ImGui\imconfig.h" />
     <ClInclude Include="dependencies\include\ImGui\imgui.h" />
     <ClInclude Include="dependencies\include\ImGui\imgui_impl_opengl3.h" />
@@ -185,8 +188,9 @@
     <ClInclude Include="dependencies\include\JNI\win32\jawt_md.h" />
     <ClInclude Include="dependencies\include\JNI\win32\jni_md.h" />
     <ClInclude Include="dependencies\include\MinHook.h" />
-    <ClInclude Include="gui.h" />
-    <ClInclude Include="hook.h" />
+    <ClInclude Include="gui\gui.h" />
+    <ClInclude Include="hook\hook.h" />
+    <ClInclude Include="modules\AutoSprint\AutoSprint.h" />
     <ClInclude Include="net\minecraft\client\MinecraftClient.h" />
     <ClInclude Include="net\minecraft\entity\Entity.h" />
     <ClInclude Include="net\minecraft\world\World.h" />

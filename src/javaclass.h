@@ -7,7 +7,6 @@ class cheat
 public:
 	JavaVM* jvm;
 	JNIEnv* env;
-
 };
 
 inline auto mci = std::make_unique<cheat>();
