@@ -98,7 +98,7 @@ void GUI::draw()
 	ImGui::NewFrame();
 	ImGui::Begin("jni wtap hake $$");
 	{
-		ImGui::Text("minecraft -> %p\n", C_Minecraft::getInstance());
+		ImGui::Text("minecraft hake -> %p\n", C_Minecraft::getInstance());
 	}
 	ImGui::End();
 	ImGui::EndFrame();
