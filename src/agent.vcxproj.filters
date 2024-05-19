@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="dependencies\include\ImGui\imgui_impl_opengl3.cpp">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\include\ImGui\imgui_impl_win32.cpp">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="javaclass.h" />
+    <ClCompile Include="net\minecraft\client\MinecraftClient.cpp" />
+    <ClCompile Include="net\minecraft\entity\Entity.cpp" />
+    <ClCompile Include="net\minecraft\world\World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{d5c61b2e-fc4a-4f14-9689-1376e19ca7a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\ImGui">
+      <UniqueIdentifier>{4a96feb9-c21a-48c4-abe6-93c8405d4ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{1a2b9cf3-1b07-4ef6-abad-9589822a24e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook">
+      <UniqueIdentifier>{db35df7d-97f2-45a5-ad23-88cb3816d874}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependencies\include\ImGui\imconfig.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\ImGui\imgui.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\ImGui\imgui_impl_opengl3.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\ImGui\imgui_impl_win32.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\ImGui\imgui_internal.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\ImGui\imgui_stdlib.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\ImGui\imstb_rectpack.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\ImGui\imstb_textedit.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\ImGui\imstb_truetype.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\ImGui\imgui_impl_opengl3_loader.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\MinHook.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="net\minecraft\client\MinecraftClient.h" />
+    <ClInclude Include="net\minecraft\entity\Entity.h" />
+    <ClInclude Include="net\minecraft\world\World.h" />
+    <ClInclude Include="dependencies\include\JNI\classfile_constants.h" />
+    <ClInclude Include="dependencies\include\JNI\jawt.h" />
+    <ClInclude Include="dependencies\include\JNI\jdwpTransport.h" />
+    <ClInclude Include="dependencies\include\JNI\jni.h" />
+    <ClInclude Include="dependencies\include\JNI\jvmti.h" />
+    <ClInclude Include="dependencies\include\JNI\jvmticmlr.h" />
+    <ClInclude Include="dependencies\include\JNI\win32\jawt_md.h" />
+    <ClInclude Include="dependencies\include\JNI\win32\jni_md.h" />
+    <ClInclude Include="dependencies\include\JNI\win32\bridge\AccessBridgeCallbacks.h" />
+    <ClInclude Include="dependencies\include\JNI\win32\bridge\AccessBridgeCalls.h" />
+    <ClInclude Include="dependencies\include\JNI\win32\bridge\AccessBridgePackages.h" />
+    <ClInclude Include="net\minecraft\client\MinecraftClient.h" />
+    <ClInclude Include="net\minecraft\entity\Entity.h" />
+    <ClInclude Include="net\minecraft\world\World.h" />
+  </ItemGroup>
+</Project>
