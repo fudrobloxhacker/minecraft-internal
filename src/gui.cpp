@@ -96,7 +96,7 @@ void GUI::draw()
 	ImGui_ImplOpenGL3_NewFrame();
 	ImGui_ImplWin32_NewFrame();
 	ImGui::NewFrame();
-	ImGui::Begin("jni wtap hake $$");
+	ImGui::Begin("jni hake");
 	{
 		ImGui::Text("minecraft hake -> %p\n", C_Minecraft::getInstance());
 	}
