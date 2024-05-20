@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Release\\javaclass.h.obj",
+            "outputs": [
+                "C:\\Users\\pat\\Desktop\\minecraft-internal\\src\\x64\\Release\\vc143.pdb",
+                "x64\\Release\\",
+                "C:\\Users\\pat\\Desktop\\minecraft-internal\\src\\x64\\Release\\javaclass.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "javaclass.h",
+                    "source-path": "c:\\users\\pat\\desktop\\minecraft-internal\\src\\javaclass.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
