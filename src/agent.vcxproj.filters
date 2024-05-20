@@ -20,6 +20,7 @@
     <ClCompile Include="net\minecraft\world\World.cpp" />
     <ClCompile Include="modules\Cheat.cpp" />
     <ClCompile Include="modules\AutoSprint\AutoSprint.cpp" />
+    <ClCompile Include="modules\AutoCrystal\AutoCrystal.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Dependencies">
@@ -94,5 +95,6 @@
     <ClInclude Include="net\minecraft\world\World.h" />
     <ClInclude Include="modules\Cheat.h" />
     <ClInclude Include="modules\AutoSprint\AutoSprint.h" />
+    <ClInclude Include="modules\AutoCrystal\AutoCrystal.h" />
   </ItemGroup>
 </Project>

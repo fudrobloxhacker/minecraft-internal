@@ -154,6 +154,7 @@
   <ItemGroup>
     <ClCompile Include="dependencies\include\ImGui\imgui_impl_opengl3.cpp" />
     <ClCompile Include="dependencies\include\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="modules\AutoCrystal\AutoCrystal.cpp" />
     <ClCompile Include="modules\Cheat.cpp" />
     <ClCompile Include="gui\gui.cpp" />
     <ClCompile Include="hook\hook.cpp" />
@@ -165,6 +166,7 @@
     <ClCompile Include="net\minecraft\world\World.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="modules\AutoCrystal\AutoCrystal.h" />
     <ClInclude Include="modules\Cheat.h" />
     <ClInclude Include="dependencies\include\ImGui\imconfig.h" />
     <ClInclude Include="dependencies\include\ImGui\imgui.h" />

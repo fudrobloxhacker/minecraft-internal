@@ -5,9 +5,8 @@
 #include "../net/minecraft/client/MinecraftClient.h"
 #include "../net/minecraft/entity/Entity.h"
 #include <iostream>
-#include "../../modules/Cheat.h"
 #include <string>
-
+#include "../modules/Cheat.h"
 
 static bool is_init{};
 static bool do_draw{ true };
@@ -37,7 +36,7 @@ bool GUI::init(HWND wnd_handle)
 	style->Colors[ImGuiCol_WindowBg] = ImVec4(0.06f, 0.05f, 0.07f, 1.00f);
 	style->Colors[ImGuiCol_ChildBg] = ImVec4(0.07f, 0.07f, 0.09f, 1.00f);
 	style->Colors[ImGuiCol_PopupBg] = ImVec4(0.07f, 0.07f, 0.09f, 1.00f);
-	style->Colors[ImGuiCol_Border] = ImVec4(0.80f, 0.80f, 0.83f, 0.88f);
+	style->Colors[ImGuiCol_Border] = ImVec4(0.07f, 0.07f, 0.09f, 1.f);
 	style->Colors[ImGuiCol_BorderShadow] = ImVec4(0.92f, 0.91f, 0.88f, 0.00f);
 	style->Colors[ImGuiCol_FrameBg] = ImVec4(0.10f, 0.09f, 0.12f, 1.00f);
 	style->Colors[ImGuiCol_FrameBgHovered] = ImVec4(0.24f, 0.23f, 0.29f, 1.00f);
@@ -98,8 +97,9 @@ void GUI::draw()
 	if (!do_draw)
 		return;
 
-	if (mci->env != nullptr)
+	if (mci->env != nullptr) {
 		runModules();
+	}
 
 	ImGui_ImplOpenGL3_NewFrame();
 	ImGui_ImplWin32_NewFrame();
@@ -107,7 +107,13 @@ void GUI::draw()
 	ImGui::Begin("jni hake");
 	{
 		ImGui::Text("ahh %p\n", C_Minecraft::getInstance);
-
+		if (mci->env == nullptr)
+		{
+			ImGui::Text("null");
+		}
+		else {
+			ImGui::Text("Jni env is not null!");
+		}
 	}
 	ImGui::End();
 	ImGui::EndFrame();

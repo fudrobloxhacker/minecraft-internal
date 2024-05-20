@@ -9,11 +9,12 @@ void runModules()
 {
 	while (true)
 	{
-		if (!C_Minecraft::getInstance()) continue;
-		if (!C_World::getInstance());
-		if (!C_Entity::getInstance()) continue;
+		if (!C_Minecraft::getInstance()) return;
+		if (!C_World::getInstance()) return;
+		if (!C_Entity::getInstance()) return;
 
 		AutoSprint::runModule();
+		//AutoCrystal::runModule();
 
 		std::this_thread::sleep_for(std::chrono::milliseconds(5));
 	}

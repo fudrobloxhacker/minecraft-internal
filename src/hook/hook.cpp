@@ -1,5 +1,5 @@
 #include "Hook.h"
-#include "../../gui/gui.h"
+#include "../gui/gui.h"
 #include "../Dependencies/include/MinHook.h"
 #include <gl/GL.h>
 

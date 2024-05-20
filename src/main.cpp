@@ -1,17 +1,20 @@
 #include <thread>
 #include <chrono>
 #include <Windows.h>
-#include "../../modules/Cheat.h"
-#include "../../hook/hook.h"
+#include "modules/Cheat.h"
+#include "javaclass.h"
+#include "hook/hook.h"
 
 void __stdcall MainThread(HINSTANCE instance)
 {
+	mci->jvm->AttachCurrentThread((void**)&mci->env, nullptr);
+
 	if (Hook::init())
 		goto _shutdown;
 
 	while (!GetAsyncKeyState(VK_DELETE))
 	{
-		std::this_thread::sleep_for(std::chrono::milliseconds(25));
+		std::this_thread::sleep_for(std::chrono::milliseconds(4));
 	}
 
 _shutdown:

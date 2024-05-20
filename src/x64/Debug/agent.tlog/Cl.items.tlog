@@ -1,9 +1,0 @@
-C:\Users\pat\Desktop\minecraft-internal\src\dependencies\include\ImGui\imgui_impl_opengl3.cpp;C:\Users\pat\Desktop\minecraft-internal\src\x64\Debug\imgui_impl_opengl3.obj
-C:\Users\pat\Desktop\minecraft-internal\src\dependencies\include\ImGui\imgui_impl_win32.cpp;C:\Users\pat\Desktop\minecraft-internal\src\x64\Debug\imgui_impl_win32.obj
-C:\Users\pat\Desktop\minecraft-internal\src\gui.cpp;C:\Users\pat\Desktop\minecraft-internal\src\x64\Debug\gui.obj
-C:\Users\pat\Desktop\minecraft-internal\src\hook.cpp;C:\Users\pat\Desktop\minecraft-internal\src\x64\Debug\hook.obj
-C:\Users\pat\Desktop\minecraft-internal\src\javaclass.h;C:\Users\pat\Desktop\minecraft-internal\src\x64\Debug\javaclass.obj
-C:\Users\pat\Desktop\minecraft-internal\src\main.cpp;C:\Users\pat\Desktop\minecraft-internal\src\x64\Debug\main.obj
-C:\Users\pat\Desktop\minecraft-internal\src\net\minecraft\client\MinecraftClient.cpp;C:\Users\pat\Desktop\minecraft-internal\src\x64\Debug\MinecraftClient.obj
-C:\Users\pat\Desktop\minecraft-internal\src\net\minecraft\entity\Entity.cpp;C:\Users\pat\Desktop\minecraft-internal\src\x64\Debug\Entity.obj
-C:\Users\pat\Desktop\minecraft-internal\src\net\minecraft\world\World.cpp;C:\Users\pat\Desktop\minecraft-internal\src\x64\Debug\World.obj
