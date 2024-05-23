@@ -1,5 +1,5 @@
 # minecraft internal client using jni
-empowered by jni, designed specifically for fabric 1.20.2. this may not work as it was for learning purposes for ablue, and lvstrng. if u want to change to other versions, simply change mappings accordingly.
+empowered by jni, designed specifically for fabric 1.20.2. this may not work as it was for learning purposes for ablue, lwes_, and lvstrng. if u want to change to other versions, simply change mappings accordingly.
 
 ## references
 - [yarn mappings](https://github.com/FabricMC/yarn/tree/1.20.2) to see yarns mappings
